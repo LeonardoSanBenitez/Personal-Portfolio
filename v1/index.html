@@ -98,7 +98,7 @@
                     <br>
                     I build my solutions using mainly <strong>Python and Azure services</strong>, adhering to state-of-the-art practices such as infrastructure-as-code and automated testing. Additionally, I have excellent knowledge of <strong>Databricks, Snowflake, and AWS</strong>. Even though I have done a lot of "classical Machine Learning" (including deep networks and all sorts of things that were cutting edge a few years ago), nowadays I mostly develop systems involving large foundational models and generative AI. 
                     <br>
-
+                    <!--
                     I am currently relocating to <strong>Sweden</strong> and seeking a full-time position at companies facing challenges such as:
                     <ul>
                       <li>Developing chatbots and conversational agents</li>
@@ -108,6 +108,7 @@
                       <li>Developing chatbots and conversational agents</li>
                       <li>Providing guidance on Azure, Databricks, and Snowflake's ML features</li>
                     </ul>
+                    -->
                   </p>
 
                   <p><a href="files/resume.pdf" target="_blank">Download my resume</a></p>
@@ -223,7 +224,7 @@
                 -->
              
              <p style='text-align: justify;'>
-                  Our client wished to enhance their web-based product with an integrated custom copilot. Working closely with them for several months, our solution was thoroughly integrated with their entire ecosystem, implementing a copilot with access to the client's Snowflake data warehouse, internal REST APIs, and other data sources. Our solution utilized autonomous agents built with Semantic Kernel and PromptFlow, incorporating PaaS offerings such as AzureML and Azure OpenAI. Through this endeavor, we optimized the client's processes and enhanced the functionality of their products.
+                  Our client wished to enhance their web-based product with an integrated custom copilot. Working closely with them for several months, our solution was <strong>thoroughly integrated with their entire ecosystem</strong>, implementing a copilot with access to the client's Snowflake data warehouse, internal REST APIs, and other data sources. Our solution utilized <strong>autonomous agents</strong> built with Semantic Kernel and PromptFlow, incorporating PaaS offerings such as AzureML and Azure OpenAI. Through this endeavor, we optimized the client's processes and enhanced the functionality of their products.
                 </p>
             </div>
           </div>
@@ -231,9 +232,8 @@
 
 
           <!-- vision unlearning -->
-          
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-             <a href="images/vision_unlearning_fade_schematic.png" target="_blank" 
+            <a href="images/vision_unlearning_fade_schematic.png" target="_blank" 
             class="image order-2 d-flex justify-content-center align-items-center" id='vision_unlearning_fade_schematic' 
             style="background-image: url('images/vision_unlearning_fade_schematic.png'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
@@ -241,7 +241,14 @@
               </div>
             </a>
 
-
+            <!-- THIS WORKS
+             <a href="images/vision_unlearning_fade_schematic.png" target="_blank" 
+            class="image order-2 d-flex justify-content-center align-items-center" id='vision_unlearning_fade_schematic' 
+            style="background-image: url('images/vision_unlearning_fade_schematic.png'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a> -->
 
             <!-- TODO these two images should appear ONE BELOW THE OHTER, not side by side as they currently are!!! -->
             <!-- <hr>
@@ -252,7 +259,7 @@
             </a> -->
 
             <div class="text order-1">
-              <h4 class="subheading">Open source</h4>
+              <h4 class="subheading">Open-source</h4>
               <h2 class="heading">Vision-unlearning library</h2>
                 <!-- 
                 ▪ Design and develop novel machine unlearning algorithms for generative models, with a strong focus on efficiency and scalability.
@@ -283,12 +290,12 @@
                   * A standardized interface to experiment with different algorithms.
                 -->
               <p style='text-align: justify;'>
-              I'm the main contributor to the open-source library <a href='https://pypi.org/project/vision-unlearning/'>Vision Unlearning</a>, that provides a standard interface for unlearning algorithms, datasets, metrics, and evaluation methodologies commonly used in <bold>Machine Unlearning</bold> for vision-related tasks. Through the coordination of several researchers, we designed and developed novel machine unlearning algorithms for generative models, with a strong focus on efficiency and scalability. Furthermore, we are developing a comprehensive benchmark to evaluate unlearning methods on generative models, analyzing their impact across various aspects such as concept entanglement, generalization, and fairness.
+              I'm the main contributor to the open-source library <a href='https://pypi.org/project/vision-unlearning/'>Vision Unlearning</a>, that provides a standard interface for unlearning algorithms, datasets, metrics, and evaluation methodologies commonly used in <strong>Machine Unlearning</strong> for vision-related tasks. Through the coordination of several researchers, we designed and developed novel machine unlearning algorithms for generative models, with a strong focus on efficiency and scalability. Furthermore, we are developing a comprehensive benchmark to evaluate unlearning methods on generative models, analyzing their impact across various aspects such as concept entanglement, generalization, and fairness.
               </p>
               <p style="font-weight: bold; font-size: 1.2em; color:white">Academic publications:</p>
               <p><a href="https://www.researchgate.net/publication/394115561_Novel_Machine_Unlearning_Method_for_Image_Generation">Novel Machine Unlearning Method for Image Generation</a>, Conference Tudományos Diákkör</p>
               <p><a href="https://github.com/LeonardoSanBenitez/vision-unlearning">IUN-INT: A Benchmark for Interference in Generative Model Unlearning</a>, in review process</p>
-              <p>Presentation in the <a href='https://machinelearningweek.eu/session/machine-unlearning-in-practice-addressing-privacy-and-bias-in-deployed-models/'>Machine Learning Weed Europe</a></p>
+              <p>Presentation in the <a href='https://machinelearningweek.eu/session/machine-unlearning-in-practice-addressing-privacy-and-bias-in-deployed-models/'>Machine Learning Week Europe</a></p>
             </div>
           </div>
 
@@ -311,7 +318,7 @@
                 Involves mainly ingesting data from on-prem and organizing a data lake (building PowerBI dashboards is included in the project, but I didn't work on that part); Tech stack: Azure Synapse, Azure Data Lake Storage, Data Factory.
                 -->
                 <p style='text-align: justify;'>
-                  The project revolves around setting up a comprehensive data infrastructure for a large e-commerce company. This entails implementing Terraform code to establish a data ecosystem in Azure, following the Microsoft Cloud Adoption Framework's best practices. Key tasks include developing data ingestion mechanisms via Azure Data Factory and Azure Functions, ensuring seamless integration of on-premises data into the data lake. Additionally, the project focuses on organizing the logical schema and serving layer utilizing Azure Synapse. Although my involvement doesn't extend to building PowerBI dashboards, my responsibilities encompass various aspects of DevOps, including pipeline implementation and Terraform utilization. Furthermore, I contribute to the design of Synapse tables and the development of data ingestion pipelines within Azure Data Factory.
+                  The project revolves around setting up a <strong>comprehensive data infrastructure</strong> for a large e-commerce company. This entails implementing Terraform code to establish a data ecosystem in Azure, following the Microsoft Cloud Adoption Framework's best practices. Key tasks include developing data ingestion mechanisms via Azure Data Factory and Azure Functions, ensuring seamless integration of on-premises data into the data lake. Additionally, the project focuses on organizing the logical schema and serving layer utilizing Azure Synapse. Although my involvement doesn't extend to building PowerBI dashboards, my responsibilities encompass various aspects of DevOps, including pipeline implementation and Terraform utilization. Furthermore, I contribute to the design of Synapse tables and the development of data ingestion pipelines within Azure Data Factory.
                 </p>
             </div>
           </div>
@@ -336,7 +343,7 @@
                 Set of loosely coupled automations to ease the analysis and resolution of security incidents, plus some simple monthly reports (graphs and metrics in a PDF, generated automatically for each customer); Tech stack: Azure Functions, Cosmos DB, some OpenAI.
                 -->
                 <p style='text-align: justify;'>
-                  We enhanced the productivity of our Security Operations Center service offering by building a set of automations to facilitate the analysis and resolution of security incidents, along with monthly reports generated automatically for each customer. Furthermore, we implemented strategies to ingest streaming data from on-premises firewalls into our time-series database and integrated with third-party data providers to gather open-source intelligence information. 
+                  We enhanced the productivity of our Security Operations Center service offering by building a set of <strong>automations</strong> to facilitate the analysis and resolution of security incidents, along with monthly reports generated automatically for each customer. Furthermore, we implemented strategies to <strong>ingest streaming data from on-premises firewalls</strong> into our time-series database and integrated with third-party data providers to gather open-source intelligence information. 
                   Our tech stack included Azure Functions, Cosmos DB, OpenAI, among others.
                 </p>
               </div>
@@ -359,7 +366,7 @@
                 Train and deploy a machine learning model for detecting diseases in their crops, given a picture of the plant; Tech stack: Azure Machine Learning.
                 -->
                 <p style='text-align: justify;'>
-                  The project focused on detecting and eliminating weeds in sugar beet plantation fields. I implemented Microsoft IoT Edge modules to read video camera data, perform inference using machine learning models, and upload the data to the cloud. I also wrote the Azure DevOps pipelines for continuous integration and delivery of the solution. Additionally, we trained and deployed a machine learning model using Azure Machine Learning to detect diseases in crops from pictures of the plants.
+                  The project focused on detecting and eliminating weeds in sugar beet plantation fields. I implemented <strong>Microsoft IoT Edge</strong> modules to read video camera data, perform inference using machine learning models, and upload the data to the cloud. I also wrote the Azure DevOps pipelines for continuous integration and delivery of the solution. Additionally, we trained and deployed a machine learning model using Azure Machine Learning to detect diseases in crops from pictures of the plants.
                 </p>
             </div>
           </div>
@@ -382,31 +389,50 @@
                 Self-hosted version of ChatGPT, with their customized enterprise controls and extended features (like integrated RAG with their internal documents); Tech stack: Cloud Foundry, GitLab pipelines, FastAPI, Azure Cognitive Search, Azure OpenAI.
                 -->
                 <p style='text-align: justify;'>
-                  The project aims to develop a chatbot tailored for employees to interact with AI regarding company documents. Essentially, it's a self-hosted version of ChatGPT, customized with enterprise controls and additional features such as integrated RAG with internal documents. The tech stack includes Cloud Foundry, GitLab pipelines, FastAPI, Azure Cognitive Search, and Azure OpenAI. Tasks involve implementing data ingestion and retrieval workflows to enhance the generative chat functionality.
+                  The project delivered an internal chatbot for <strong>thousands of employees</strong>, tailored for them to interact with company documents. Essentially, it's a self-hosted version of ChatGPT, customized with <strong>enterprise controls</strong> and additional features such as integrated RAG with internal documents. The tech stack includes Cloud Foundry, GitLab pipelines, FastAPI, Azure Cognitive Search, and Azure OpenAI. Tasks involve implementing data ingestion and retrieval workflows to enhance the generative chat functionality.
                 </p>
             </div>
           </div>
 
 
-          <!-- O365 analytics -->
+          <!-- Hillier -->
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="images/office_365_analytics.png" target="_blank" class="image d-flex justify-content-center align-items-center" id="office_365_analytics" style="background-image: url('images/office_365_analytics.png'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
+            <a href="images/hillier.png" target="_blank" class="image d-flex justify-content-center align-items-center" id="hillier" style="background-image: url('images/hillier.png'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
               <div class="icon d-flex text-center justify-content-center align-items-center">
                 <span class="icon-search"></span>
               </div>
             </a>
             <div class="text">
-              <h4 class="subheading">Modern work</h4>
-              <h2 class="heading">O365 analytics</h2>
+              <h4 class="subheading">Medical Imaging</h4>
+              <h2 class="heading">Brain decoding</h2>
                 <!-- 
-                Understand which software/licenses each user was using. 
-                Ingest data from Microsoft's O365 Unified Logs ingestion. 
-                Implement queries to summarize the licenses used by each user. 
-                Provide a REST API with OAuth for querying the aggregated information. 
-                Tech stack: Log Analytics, Azure Functions, FastAPI.
+                ▪ Tackle neuroscience challenges using Machine Learning techniques, paving the way for new biomedical methods.
+                ▪ Architect and train a deep Conditional Generative Adversarial Network (cGAN) to decode brain activity with minimal preprocessing.
+                ▪ Develop a fully data-driven method for generating functional maps in sensory regions from high-resolution functional ultrasound imaging (fUSI).
+
+                In sensory regions, such as the visual cortex, neurons are often organized into
+                functional maps – spatial arrangements where groups of neurons represent spe-
+                cific features of external stimuli. Traditional methods for generating functional
+                maps have largely relied on domain-specific knowledge and numerous preprocess-
+                ing techniques to identify each feature-specific map, such as orientation selectivity
+                and direction of motion. These classical approaches, however, introduce biases due
+                to assumptions about the structural organization of maps (e.g., columnar organi-
+                zation) and require complex, time-intensive processes. In this work, we leverage
+                the high temporal and spatial resolution of functional ultrasound (fUS) imaging
+                to propose a fully data-driven method for functional mapping. Specifically, we uti-
+                lize an image-to-image deep Conditional Generative Adversarial Network model
+                to reconstruct stimulus features directly from fUS images, using gradient-based
+                attribution to derive functional maps with minimal preprocessing and without
+                prior assumptions regarding map structure. Our method was tested by decod-
+                ing orientation selectivity maps in the visual cortex of a domestic cat, where
+                the obtained maps are similar to those produced by classical techniques on the
+                same data. This approach not only simplifies the functional mapping process
+                but also offers flexibility for broader applications in neuroimaging, highlighting
+                the potential of data-centric methods for scalable and generalizable functional
+                mapping.
                 -->
                 <p style='text-align: justify;'>
-                  The project involved understanding which software and licenses each user was using by ingesting data from Microsoft's O365 Unified Logs. Additionally, we summarized the licenses used by each user and provide this aggregated information through a REST API with OAuth authentication. The tech stack included Log Analytics, Azure Functions and FastAPI.
+                  This ambicious <strong>decade-long</strong> research project utilized cutting-edge brain imaging techinques to understand how sensory information is represented in the brain. I participated in their ML-related research lines by architecting and training a <strong>deep Conditional Generative Adversarial Network</strong> (cGAN) to decode brain activity with minimal preprocessing. This work paved the way for new biomedical methods, such as developing a fully data-driven method for generating functional maps in sensory regions from high-resolution functional ultrasound imaging (fUSI).
                 </p>
             </div>
           </div>
@@ -429,7 +455,7 @@
                 Trained machine learning models for text classification; contact Enrico for more details about this project.
                 -->
                 <p style='text-align: justify;'>
-                  I worked on a project to enhance an existing NLP data processing pipeline, mainly training text classification models using large language models like BERT. I also implemented a high-performance web scraping system using AWS ECS. Additionally, I set up a test pipeline to compare the performance of AWS OpenSearch and AWS Athena, analysing how we could refactor our pipeline to handle five times more input data than before.
+                  I worked on a project to enhance an existing NLP data processing pipeline, mainly <strong>training text classification models</strong> using large language models like BERT. I also implemented a <strong>high-performance web scraping</strong> system using AWS ECS. Additionally, I set up a test pipeline to compare the performance of AWS OpenSearch and AWS Athena, analysing how we could refactor our pipeline to handle five times more input data than before.
                 </p>
             </div>
           </div>
@@ -452,7 +478,7 @@
                 Enrich the ticket’s metadata with information about its language, named entities, among others.
                 -->
                 <p style='text-align: justify;'>
-                  This project aimed to automate the resolution of support tickets. We developed a semantic layer above our database of historical tickets, allowing us to retrieve past tickets that could be used to solve new problems. We also created a system to redirect incoming tickets to the best-suited employee based on the ticket subject and the employee's skills. Additionally, we enriched the ticket metadata with information about its language, named entities, and other relevant details.
+                  We considerably improved the resolution of support tickets by developing a <strong>semantic layer above our database</strong> of historical tickets, allowing us to retrieve past tickets that could be used to solve new problems. We also created a system to redirect incoming tickets to the best-suited employee based on the ticket subject and the employee's skills. Additionally, we enriched the ticket metadata with information about its language, named entities, and other relevant details.
                 </p>
                 <p style="font-weight: bold; font-size: 1.2em; color:white">Academic publications:</p>
                 <p><a href="https://ieeexplore.ieee.org/document/10051041">Machine Learning for Classification of IT Support Tickets</a>, IEEE CyMaEn</p>
@@ -478,7 +504,7 @@
                 Tech stack: Azure Functions, CosmosDB, Blob Storage.
                 -->
                 <p style='text-align: justify;'>
-                  This project involved creating an Azure-based data lake to store data generated in a vehicle factory. I defined the architecture of the data lake and developed connectors to inject and transform data from production systems to the cloud. We parsed a variety of data formats (PDF, XML, etc.) into a standard schema in our object-oriented database. Users in Quality Management could then search for quality-related data based on specified parameters. The project involved ingesting files generated by factory machines, parsing and organizing them into a CosmosDB database, and providing a web interface for querying and retrieving the parsed content. The tech stack included Azure Functions, CosmosDB, and Blob Storage.
+                  This project involved creating an Azure-based data lake to store data generated in a vehicle factory. We defined the architecture of the data lake and developed <strong>connectors to inject and transform data</strong> from production systems to the cloud. Our system could parse a variety of data formats (PDF, XML, etc.) into a standard schema in our object-oriented database. Users in Quality Management could then search for quality-related data based on specified parameters. The project involved ingesting files generated by factory machines into Azure Blob Storage, processing them using Azure Functions, saving to a CosmosDB database, and providing a Streamlit web interface for querying and retrieving the parsed content.
                 </p>
             </div>
           </div>
@@ -500,9 +526,9 @@
                 Integrate this model to a web platform hosted on AWS, running on Docker and with Python Flask backend.  
                 Build a software to label the videos used to train the model, and manage the resulting dataset. 
                -->
-              <p style='text-align: justify;'>The Barn 4.0 project is an applied research project for the dairy industry, under development at
+              <p style='text-align: justify;'>This was an applied research project for the dairy industry, developed at
                     Häme University of Applied Sciences, Finland.
-                    My role in the project was to <strong>apply computer vision techniques to recognize the behavior of the
+                    My role in the project was to apply computer vision techniques to <strong>recognize the behavior of the
                         cows</strong>: identify whether
                     they were aggressive, how they were interacting, if they were stressed, among others. I also helped to cross this
                     information with other data sources (weather, milk quality, etc) to analyze what stresses them.</p>
@@ -532,11 +558,60 @@
                 Work with large‐scale databases (receiving tens of millions of requests per day) and the applications that consumed the data gathered by the application, enhancing the reliability and availability of our services. 
                 -->
                 <p style='text-align: justify;'>
-                  The project aimed to deliver contextual advertisement for digital television. We developed an edge application to recommend ads based on user behaviors and preferences, enabling programmatic advertisement for the main television groups in Brazil. I worked with large-scale databases, handling tens of millions of requests per day, and improved the applications that consumed this data, enhancing the reliability and availability of our services.
+                  The project aimed to deliver contextual advertisement for digital television. We developed an edge application to <strong>recommend ads</strong> based on user behaviors and preferences, enabling programmatic advertisement for the main television groups in Brazil. I worked with large-scale databases, handling <strong>tens of millions of requests per day</strong>, and improved the applications that consumed this data, enhancing the reliability and availability of our services.
                 </p>
             </div>
           </div>
 
+          <!-- O365 analytics -->
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="images/office_365_analytics.png" target="_blank" class="image d-flex justify-content-center align-items-center" id="office_365_analytics" style="background-image: url('images/office_365_analytics.png'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Modern work</h4>
+              <h2 class="heading">O365 analytics</h2>
+                <!-- 
+                Understand which software/licenses each user was using. 
+                Ingest data from Microsoft's O365 Unified Logs ingestion. 
+                Implement queries to summarize the licenses used by each user. 
+                Provide a REST API with OAuth for querying the aggregated information. 
+                Tech stack: Log Analytics, Azure Functions, FastAPI.
+                -->
+                <p style='text-align: justify;'>
+                  The project involved understanding which software and licenses each user was using by <strong>ingesting data from Microsoft's O365 Unified Logs</strong>. Additionally, we summarized the licenses used by each user and provide this aggregated information through a REST API with OAuth authentication. The tech stack included Log Analytics, Azure Functions and FastAPI.
+                </p>
+            </div>
+          </div>
+
+          <!-- SmartIFSC -->
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="images/smartifsc.jpg" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" id='smartifsc' style="background-image: url('images/smartifsc.jpg'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Energy Management Systems</h4>
+              <h2 class="heading">SmartIFSC</h2>
+              <!-- 
+                Enhance the energy efficiency of public buildings. 
+                Implement machine learning models to forecast energy consumption and analyze energy efficiency. 
+                Developed a web application for real-time monitoring and visualization, successfully saving about 10% in the energy usage of several universities. 
+               -->
+                <p style='text-align: justify;'>Our lab built an end-to-end Energy Management System to public buildings, based on ISO
+                    50.001 standard,successfully <strong>saving about 10% in the energy usage</strong> of several Brazilian universities. 
+                    My role there was to develop ML models to consumption forecast, Knowledge Discovery from Databases, among others.
+                    I also helped to develop the web interface and to develop the hardware and firmware used to collect the data.
+                </p>
+              <p style="font-weight: bold; font-size: 1.2em; color:white">Academic publications:</p>
+              <p><a href="https://2020.ieeesyscon.org/">Modeling of Energy Management Systems using Artificial Intelligence</a>, IEEE International Systems Conference</p>
+              <p><a href="https://ieeexplore.ieee.org/document/8987489">Energy management web portal prototype (PGEN) for public institutions</a>, IEEE Chilecon</p>
+              <p><a href="https://ieeexplore.ieee.org/document/8988009">Development of a phasor measurement unit prototype applied to Brazilian and Chilean electrical systems</a>, IEEE Chilecon</p>
+            </div>
+          </div>
 
           <!-- Lóris -->
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -560,38 +635,11 @@
             </div>
           </div>
 
-          <!-- SmartIFSC -->
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="images/smartifsc.jpg" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" id='smartifsc' style="background-image: url('images/smartifsc.jpg'); background-size: contain" data-scrollax=" properties: { translateY: '-30%'}">
-              <div class="icon d-flex text-center justify-content-center align-items-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-            <div class="text order-1">
-              <h4 class="subheading">Energy Management Systems</h4>
-              <h2 class="heading">SmartIFSC</h2>
-              <!-- 
-                Enhance the energy efficiency of public buildings. 
-                Implement machine learning models to forecast energy consumption and analyze energy efficiency. 
-                Developed a web application for real-time monitoring and visualization, successfully saving about 10% in the energy usage of several universities. 
-               -->
-                <p style='text-align: justify;'>The SmartIFSC project is an Energy Management System to public buildings, based on ISO
-                    50.001 standard.
-                    My role there was to develop ML models to consumption forecast, Knowledge Discovery from Databases, among others.
-                    I also helped to develop the web interface and to develop the hardware and firmware used to collect the data.
-                </p>
-              <p style="font-weight: bold; font-size: 1.2em; color:white">Academic publications:</p>
-              <p><a href="https://2020.ieeesyscon.org/">Modeling of Energy Management Systems using Artificial Intelligence</a>, IEEE International Systems Conference</p>
-              <p><a href="https://ieeexplore.ieee.org/document/8987489">Energy management web portal prototype (PGEN) for public institutions</a>, IEEE Chilecon</p>
-              <p><a href="https://ieeexplore.ieee.org/document/8988009">Development of a phasor measurement unit prototype applied to Brazilian and Chilean electrical systems</a>, IEEE Chilecon</p>
-            </div>
-          </div>
-
+        <!-- End of projects -->
         </div>
       </div>
       </section>
       
-
       <!-- contact section -->
       <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">

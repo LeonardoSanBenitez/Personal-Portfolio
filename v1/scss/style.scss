@@ -1599,6 +1599,19 @@ textarea.form-control {
 			height: 300px;
 		}
 	}
+  .images-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(md) {
+      width: 40%;
+    }
+
+    .image {
+      width: 100%;
+    }
+  }
 }
 
 .custom-pagination {
